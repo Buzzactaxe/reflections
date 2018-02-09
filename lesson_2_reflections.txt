@@ -1,7 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+initializing a repository make git follow the files you have added
+once you initialize a repository with "git init" you should check the status with "git status"
+the files listed are initially untracked so it will not have any commits
+
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+Staging area is an intermediate area between the working directory and the repository, allowing you the possibility to specify exactly the changes should be commited.
+Once you are ready to commit the staging area transfers all the changes in a single commit
 
 How can you use the staging area to make sure you have one commit per logical
 change?
