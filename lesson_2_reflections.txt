@@ -8,14 +8,19 @@ the files listed are initially untracked so it will not have any commits
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Staging area is an intermediate area between the working directory and the repository, allowing you the possibility to specify exactly the changes should be commited.
-Once you are ready to commit the staging area transfers all the changes in a single commit
+  Staging area is an intermediate area between the working directory and the repository, allowing you the possibility to specify exactly the changes should be commited.
+  Once you are ready to commit the staging area transfers all the changes in a single commit
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  Using git diff with no arguments you will be able to see the changes from the working area and stage area, and using git diff -- stages will show the difference between staging area and recent commits.
+  This helps to commit the correct changes you want to add
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+  If you have multiple versions of a program that you want to separate from the master branch, using git branches is a very effective way how to create a different path with the base of the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
