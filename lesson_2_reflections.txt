@@ -14,18 +14,26 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-  Using git diff with no arguments you will be able to see the changes from the working area and stage area, and using git diff -- stages will show the difference between staging area and recent commits.
+  Using git diff with no arguments you will be able to see the changes from the working area and stage area,
+  and using git diff -- stages will show the difference between staging area and recent commits.
   This helps to commit the correct changes you want to add
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-  If you have multiple versions of a program that you want to separate from the master branch, using git branches is a very effective way how to create a different path with the base of the master branch.
+  If you have multiple versions of a program that you want to separate from the master branch,
+  using git branches is a very effective way how to create a different path while still keeping the base master branch.
 
 How do the diagrams help you visualize the branch structure?
 
+  Diagrams help you track the commits from most recent to oldest and how they connect to the master branch
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+  MERGING 2 is the result of 2 separate working paths connecting together once a new feature is ready to be integrated in the master/main branch
+  We represent it on the diagram showing that once the branches are merged we continue keeping the past commits of both branches but using the single branch from the merging point onwards.
+  It is shown because it is important not to leave commits unreachable.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
