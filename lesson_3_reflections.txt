@@ -1,4 +1,4 @@
-When would you want to use a remote repository rather than keeping all your work
+﻿When would you want to use a remote repository rather than keeping all your work
 local?
 
     I would use my remote repository so if something would happen to my working space there would be a copy of it online that would not be     cancelled
@@ -18,14 +18,15 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    having a up do date copy stored locally is great to be able to see changes made and if you have no internet access you can work on them anyway.
+    Having a up do date copy stored locally is great to be able to see changes made and if you have no internet access you can work on them anyway.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    It would be very hard to collab without a platform as Github. Not much would be easier and a lot would be harder for developers. 
 
 When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+master?  
+What benefits does each approach have?
 
     Fill in your answer here
